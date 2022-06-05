@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="807141f1-9b7a-4953-8ba3-55612a47df19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +77,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceGeneratorTest.givenMultipleRides_ShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BridgeLabz_Day30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="givenMultipleRides_ShouldReturnTotalFare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BridgeLabz_Day30" />
       <extension name="coverage">
@@ -97,6 +115,7 @@
       <list>
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenLessDistanceOrTime_ShouldReturnMinimumFare" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" />
+        <item itemvalue="JUnit.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnTotalFare" />
         <item itemvalue="TestNG.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" />
       </list>
     </recent_temporary>
@@ -122,5 +141,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
