@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="807141f1-9b7a-4953-8ba3-55612a47df19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare">
+  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.givenLessDistanceOrTime_ShouldReturnMinimumFare">
     <configuration name="InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BridgeLabz_Day30" />
       <extension name="coverage">
@@ -58,6 +54,22 @@
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceGeneratorTest" />
       <option name="METHOD_NAME" value="givenDistanceAndTime_ShouldReturnFare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceGeneratorTest.givenLessDistanceOrTime_ShouldReturnMinimumFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BridgeLabz_Day30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="givenLessDistanceOrTime_ShouldReturnMinimumFare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvoiceGeneratorTest.givenLessDistanceOrTime_ShouldReturnMinimumFare" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" />
         <item itemvalue="TestNG.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" />
       </list>
