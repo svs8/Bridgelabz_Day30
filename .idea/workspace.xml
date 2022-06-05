@@ -44,7 +44,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.givenLessDistanceOrTime_ShouldReturnMinimumFare">
+  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnInvoiceSummary">
     <configuration name="InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BridgeLabz_Day30" />
       <extension name="coverage">
@@ -72,6 +72,22 @@
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceGeneratorTest" />
       <option name="METHOD_NAME" value="givenLessDistanceOrTime_ShouldReturnMinimumFare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceGeneratorTest.givenMultipleRides_ShouldReturnInvoiceSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BridgeLabz_Day30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="givenMultipleRides_ShouldReturnInvoiceSummary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenLessDistanceOrTime_ShouldReturnMinimumFare" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnFare" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnTotalFare" />

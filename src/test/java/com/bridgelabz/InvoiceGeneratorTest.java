@@ -28,12 +28,23 @@ public class InvoiceGeneratorTest {
     }
 
     @Test
-    public void givenMultipleRides_ShouldReturnTotalFare(){
+//    public void givenMultipleRides_ShouldReturnTotalFare(){
+//        Ride[] rides={new Ride(2.0,5),
+//                      new Ride(0.1,1)
+//                      };
+//        double fare=invoiceGenerator.calculateFare(rides);
+//        Assert.assertEquals("fare",30,fare,0.0);
+//    }
+
+    public void givenMultipleRides_ShouldReturnInvoiceSummary(){
         Ride[] rides={new Ride(2.0,5),
-                      new Ride(0.1,1)
-                      };
-        double fare=invoiceGenerator.calculateFare(rides);
-        Assert.assertEquals("fare",30,fare,0.0);
+                new Ride(0.1,1)
+        };
+        InvoiceSummary invoiceSummary=invoiceGenerator.calculateFare(rides);
+        InvoiceSummary expected_invoiceSummary=new InvoiceSummary(2,30.0);
+        Assert.assertEquals(expected_invoiceSummary,invoiceSummary);
     }
+
+
 
 }
